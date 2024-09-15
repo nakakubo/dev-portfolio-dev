@@ -1,0 +1,74 @@
+/* Reset Browser Initial*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Define Variables */
+:root {
+	--color-red: #E3646E;
+	--color-purple: #BB72E9;
+	--color-blue: #3996DB;
+	--color-green: #82BC4F;
+	--color-yellow: #EABD5F;
+	--color-grey-100: #0D0E11;
+	--color-grey-200: #16181D;
+	--color-grey-300: #292C34;
+	--color-grey-400: #878EA1;
+	--color-grey-500: #C0C4CE;
+	--color-grey-600: #E2E4E9;
+	--font-asap: "Asap", sans-serif;
+	--font-inconsolata: "Inconsolata", sans-serif;
+	--font-maven: "Maven Pro", sans-serif;
+}
+
+/* Fonts */
+h1, h2, h3, a {
+	font: inherit;
+}
+.title-lg{
+	font: 700 56px/1.2 var(--font-asap);
+	color: var(--color-grey-600)
+}
+.title-md{
+	font: 700 24px/1.2 var(--font-asap);
+	color: var(--color-grey-600)
+}
+.title-sm{
+	font: 700 16px/1.2 var(--font-asap);
+	color: var(--color-grey-600)
+}
+.subtitle{
+	font: 400 20px/1.2 var(--font-inconsolata);
+}
+.text-md {
+	font: 400 16px/1.4 var(--font-maven);
+}
+.text-sm{
+	font: 400 14px/1.4 var(--font-maven);
+}
+p {
+	font: 400 16px/1.4 var(--font-maven);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Images */
+img {
+	max-width: 100%;
+}
+
+/* Containers */
+body {
+	background-color: var(--color-grey-200);
+	color: var(--color-grey-400);
+}
+.container {
+	max-width: 1040px;
+	margin-inline: auto;
+}
